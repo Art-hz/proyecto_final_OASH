@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ProyectoFinalOsvaldoArturoServinHernandez</string>
+    <string name="female">Female</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="group">Group</string>
+    <string name="male">Male</string>
+    <string name="error_showing_pokemon_not_found">Error showing pokemon, dog not found</string>
+    <string name="pokemon_index_format">#%d</string>
+    <string name="pokemon_life_expectancy_format">%s years</string>
+    <string name="unknown_host_exception_error">There is no internet connection</string>
+    <string name="unknown_error">There was an error</string>
+    <string name="there_was_an_error">There was an error</string>
+    <string name="wrong_user_or_password">Wrong user or password</string>
+    <string name="this_is_a_content_description">This is a content description</string>
+    <string name="error_adding_dog">There was an error adding dog to collection</string>
+    <string name="camera_permission_rejected_message">You need to accept camera permission to use camera</string>
+    <string name="title_activity_dog_detail_compose">DogDetailComposeActivity</string>
+    <string name="error_dialog_title">Oops, something happened!</string>
+    <string name="try_again">Try again</string>
+    <string name="not_your_dog_button">Not your dog? Tap to see other probable dogs</string>
+    <string name="other_probable_dogs">Other probable dogs</string>
+    <string name="dismiss">My dog is not here</string>
+    <string name="login_screen_error">Login Screen error</string>
+    <string name="title_activity_local_pokemon">LocalPokemonActivity</string>
+</resources>
