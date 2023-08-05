@@ -2,6 +2,7 @@ package com.example.proyectofinalosvaldoarturoservinhernandez.ui.pokemonList.vie
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
@@ -28,6 +29,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         roomViewModel = ViewModelProvider(this).get(PokemonRoomViewModel::class.java)
+        Toast.makeText(this@MainActivity, "Da tap sobre un pokemon para agregarlo a favoritos", Toast.LENGTH_LONG).show()
         setContent {
             ProyectoFinalOsvaldoArturoServinHernandezTheme {
                 // A surface container using the 'background' color from the theme
